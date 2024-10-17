@@ -28,7 +28,9 @@ class HomePage extends StatelessWidget {
               fontWeight: FontWeight.bold,
               fontSize: 20,
             ),),
-            Text("jannatulferdous.iiuc.97@gmail.com"),
+            Text("jannatulferdous.iiuc.97@gmail.com", style: TextStyle(
+              fontSize: 18,
+            ),),
 
             ElevatedButton.icon(onPressed: (){
 
