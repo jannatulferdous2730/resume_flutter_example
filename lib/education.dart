@@ -22,6 +22,9 @@ class Education extends StatelessWidget {
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Column(
+
+            crossAxisAlignment: CrossAxisAlignment.start,
+
             children: [
               Row(
                 children: [

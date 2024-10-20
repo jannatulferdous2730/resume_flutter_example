@@ -41,6 +41,7 @@ class Experience extends StatelessWidget {
               SizedBox(height: 5,),
 
               Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text("Project : ",  style: TextStyle(
                     fontSize: 21,
